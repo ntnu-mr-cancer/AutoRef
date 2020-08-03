@@ -6,6 +6,9 @@
 %               world coordinate system
 % im3d.R        - reference image coordinate system
 
+% This function was was written by Dr. Mattijs Elschot from the MR center at the Norwegian University of Science and Technology (NTNU), Trondheim, Norway.
+% Please refer to the author in case of using this function.
+
 % Read dicom slices into 3D volume and get dicom info for each slice
 function [im3d] = loadImage3d(dirName)
 
@@ -408,6 +411,7 @@ end
 
 %% % This function reads the information from the Siemens Private tag 0029 1020 
 % from a struct with all dicom info. Copied and adjusted from DJ Kroon
+% Dirk-Jan Kroon (2020). Dicom Toolbox (https://www.mathworks.com/matlabcentral/fileexchange/27941-dicom-toolbox), MATLAB Central File Exchange. Retrieved August 3, 2020.
 function sinfo=SiemensInfo(info)
 
 str=char(info.Private_0029_1020(:))';
