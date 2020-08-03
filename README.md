@@ -9,7 +9,7 @@ https://www.ntnu.edu/isb/mr-cancer
 For detailed information about this method, please read our paper: https://link.springer.com/article/10.1007%2Fs10334-020-00871-3
 
 # Note
-The provided algorithm was developed for research use ans was NOT meant to be used in clinic.
+The provided algorithm was developed for research use and was NOT meant to be used in clinic.
 
 # How to cite AutoRef
 In case of using or refering to AutoRef, please cite it as:
