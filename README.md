@@ -13,6 +13,7 @@ The provided algorithm was developed for research use and was NOT meant to be us
 
 # How to cite AutoRef
 In case of using or refering to AutoRef, please cite it as:
+
 Sunoqrot, M.R.S., Nketiah, G.A., Selnæs, K.M., Bathen, T.F., Elschot, M. Automated reference tissue normalization of T2-weighted MR images of the prostate using object recognition. Magn Reson Mater Phy (2020). https://doi.org/10.1007/s10334-020-00871-3
 
 # How to use AutoRef
