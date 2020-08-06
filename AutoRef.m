@@ -6,7 +6,7 @@
 % https://link.springer.com/article/10.1007%2Fs10334-020-00871-3
 %
 % NOTE: when you use this function/method cite this articel:
-% Sunoqrot, M.R.S., Nketiah, G.A., Selnæs, K.M. et al. Automated reference tissue
+% Sunoqrot, M.R.S., Nketiah, G.A., SelnÃ¦s, K.M. et al. Automated reference tissue
 % normalization of T2-weighted MR images of the prostate using object recognition.
 % Magn Reson Mater Phy (2020). https://doi.org/10.1007/s10334-020-00871-3
 % 
@@ -418,6 +418,8 @@ elxStrDataxToMetaIOFile(StrDatax,tempIn,0);
 
 % do bias field correction from command line
 command = ['c3d ' tempIn ' -biascorr -o ' tempOut];
+% If you are runing the function on linux and did not work use:
+% command = ['Full directory to c3d ' tempIn ' -biascorr -o ' tempOut]; e.g  command = ['/mnt/work/software/c3d/bin/c3d ' tempIn ' -biascorr -o ' tempOut];
 system(command);
 
 % read in corrected image
