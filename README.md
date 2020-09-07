@@ -49,7 +49,7 @@ To get the normalized image (Structure in MATLAB®) you have to type this:
 normalized = AutoRef('C:\Data\Case10.mhd');
 ```
 
-After that you can cinvert the matlab image to the format you find suitable for your work.
+After that you can convert the matlab image to the format you find suitable for your work.
 For example you can conver the normalized image to a MetaIO image.
 ```matlab
 StrDatax = elxIm3dToStrDatax(normalized);
