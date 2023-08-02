@@ -11,6 +11,26 @@ For detailed information about this method, please read our paper: https://link.
 # Note
 The provided algorithm was developed for research use and was NOT meant to be used in clinic.
 
+# Python Version
+Check this repository: https://github.com/MohammedSunoqrot/pyAutoRef
+For the Python version, you can install the package either from pip or using pip or the files in GitHub repository [https://github.com/MohammedSunoqrot/pyAutoRef]
+
+## pip
+Simply type:
+```
+pip install pyAutoRef
+```
+## GitHub
+- Clone the GitHub repository
+   *From command line*
+   ```
+   git clone https://github.com/MohammedSunoqrot/pyAutoRef.git
+   ```
+- Change directory to the clones folder (unzip if needed) and type
+   ```
+   pip install . 
+   ```
+
 # How to cite AutoRef
 In case of using or refering to AutoRef, please cite it as:
 
